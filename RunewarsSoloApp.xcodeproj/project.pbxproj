@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D01EA40C2A892CA0006F54E6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01EA40B2A892CA0006F54E6 /* Launch Screen.storyboard */; };
+		D03CC7C92A12A34F007EDB01 /* RunewarsSoloAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CC7C82A12A34F007EDB01 /* RunewarsSoloAppApp.swift */; };
+		D03CC7CB2A12A34F007EDB01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CC7CA2A12A34F007EDB01 /* ContentView.swift */; };
+		D03CC7CD2A12A351007EDB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03CC7CC2A12A351007EDB01 /* Assets.xcassets */; };
+		D03CC7D12A12A351007EDB01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03CC7D02A12A351007EDB01 /* Preview Assets.xcassets */; };
+		D03CC7DB2A12A352007EDB01 /* RunewarsSoloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CC7DA2A12A352007EDB01 /* RunewarsSoloAppTests.swift */; };
+		D03CC7E52A12A352007EDB01 /* RunewarsSoloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CC7E42A12A352007EDB01 /* RunewarsSoloAppUITests.swift */; };
+		D03CC7E72A12A352007EDB01 /* RunewarsSoloAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CC7E62A12A352007EDB01 /* RunewarsSoloAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D03CC7D72A12A352007EDB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03CC7BD2A12A34F007EDB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D03CC7C42A12A34F007EDB01;
+			remoteInfo = RunewarsSoloApp;
+		};
+		D03CC7E12A12A352007EDB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03CC7BD2A12A34F007EDB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D03CC7C42A12A34F007EDB01;
+			remoteInfo = RunewarsSoloApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D01EA40B2A892CA0006F54E6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D03CC7C52A12A34F007EDB01 /* RunewarsSoloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunewarsSoloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03CC7C82A12A34F007EDB01 /* RunewarsSoloAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunewarsSoloAppApp.swift; sourceTree = "<group>"; };
+		D03CC7CA2A12A34F007EDB01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D03CC7CC2A12A351007EDB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03CC7CE2A12A351007EDB01 /* RunewarsSoloApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunewarsSoloApp.entitlements; sourceTree = "<group>"; };
+		D03CC7D02A12A351007EDB01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D03CC7D62A12A352007EDB01 /* RunewarsSoloAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunewarsSoloAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03CC7DA2A12A352007EDB01 /* RunewarsSoloAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunewarsSoloAppTests.swift; sourceTree = "<group>"; };
+		D03CC7E02A12A352007EDB01 /* RunewarsSoloAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunewarsSoloAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03CC7E42A12A352007EDB01 /* RunewarsSoloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunewarsSoloAppUITests.swift; sourceTree = "<group>"; };
+		D03CC7E62A12A352007EDB01 /* RunewarsSoloAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunewarsSoloAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03CC7C22A12A34F007EDB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CC7D32A12A352007EDB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CC7DD2A12A352007EDB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D03CC7BC2A12A34F007EDB01 = {
+			isa = PBXGroup;
+			children = (
+				D03CC7C72A12A34F007EDB01 /* RunewarsSoloApp */,
+				D03CC7D92A12A352007EDB01 /* RunewarsSoloAppTests */,
+				D03CC7E32A12A352007EDB01 /* RunewarsSoloAppUITests */,
+				D03CC7C62A12A34F007EDB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D03CC7C62A12A34F007EDB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03CC7C52A12A34F007EDB01 /* RunewarsSoloApp.app */,
+				D03CC7D62A12A352007EDB01 /* RunewarsSoloAppTests.xctest */,
+				D03CC7E02A12A352007EDB01 /* RunewarsSoloAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03CC7C72A12A34F007EDB01 /* RunewarsSoloApp */ = {
+			isa = PBXGroup;
+			children = (
+				D03CC7C82A12A34F007EDB01 /* RunewarsSoloAppApp.swift */,
+				D03CC7CA2A12A34F007EDB01 /* ContentView.swift */,
+				D03CC7CC2A12A351007EDB01 /* Assets.xcassets */,
+				D03CC7CE2A12A351007EDB01 /* RunewarsSoloApp.entitlements */,
+				D01EA40B2A892CA0006F54E6 /* Launch Screen.storyboard */,
+				D03CC7CF2A12A351007EDB01 /* Preview Content */,
+			);
+			path = RunewarsSoloApp;
+			sourceTree = "<group>";
+		};
+		D03CC7CF2A12A351007EDB01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D03CC7D02A12A351007EDB01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D03CC7D92A12A352007EDB01 /* RunewarsSoloAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D03CC7DA2A12A352007EDB01 /* RunewarsSoloAppTests.swift */,
+			);
+			path = RunewarsSoloAppTests;
+			sourceTree = "<group>";
+		};
+		D03CC7E32A12A352007EDB01 /* RunewarsSoloAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D03CC7E42A12A352007EDB01 /* RunewarsSoloAppUITests.swift */,
+				D03CC7E62A12A352007EDB01 /* RunewarsSoloAppUITestsLaunchTests.swift */,
+			);
+			path = RunewarsSoloAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03CC7C42A12A34F007EDB01 /* RunewarsSoloApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03CC7EA2A12A352007EDB01 /* Build configuration list for PBXNativeTarget "RunewarsSoloApp" */;
+			buildPhases = (
+				D03CC7C12A12A34F007EDB01 /* Sources */,
+				D03CC7C22A12A34F007EDB01 /* Frameworks */,
+				D03CC7C32A12A34F007EDB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunewarsSoloApp;
+			productName = RunewarsSoloApp;
+			productReference = D03CC7C52A12A34F007EDB01 /* RunewarsSoloApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D03CC7D52A12A352007EDB01 /* RunewarsSoloAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03CC7ED2A12A352007EDB01 /* Build configuration list for PBXNativeTarget "RunewarsSoloAppTests" */;
+			buildPhases = (
+				D03CC7D22A12A352007EDB01 /* Sources */,
+				D03CC7D32A12A352007EDB01 /* Frameworks */,
+				D03CC7D42A12A352007EDB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D03CC7D82A12A352007EDB01 /* PBXTargetDependency */,
+			);
+			name = RunewarsSoloAppTests;
+			productName = RunewarsSoloAppTests;
+			productReference = D03CC7D62A12A352007EDB01 /* RunewarsSoloAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D03CC7DF2A12A352007EDB01 /* RunewarsSoloAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03CC7F02A12A352007EDB01 /* Build configuration list for PBXNativeTarget "RunewarsSoloAppUITests" */;
+			buildPhases = (
+				D03CC7DC2A12A352007EDB01 /* Sources */,
+				D03CC7DD2A12A352007EDB01 /* Frameworks */,
+				D03CC7DE2A12A352007EDB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D03CC7E22A12A352007EDB01 /* PBXTargetDependency */,
+			);
+			name = RunewarsSoloAppUITests;
+			productName = RunewarsSoloAppUITests;
+			productReference = D03CC7E02A12A352007EDB01 /* RunewarsSoloAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03CC7BD2A12A34F007EDB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D03CC7C42A12A34F007EDB01 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D03CC7D52A12A352007EDB01 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D03CC7C42A12A34F007EDB01;
+					};
+					D03CC7DF2A12A352007EDB01 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D03CC7C42A12A34F007EDB01;
+					};
+				};
+			};
+			buildConfigurationList = D03CC7C02A12A34F007EDB01 /* Build configuration list for PBXProject "RunewarsSoloApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D03CC7BC2A12A34F007EDB01;
+			productRefGroup = D03CC7C62A12A34F007EDB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03CC7C42A12A34F007EDB01 /* RunewarsSoloApp */,
+				D03CC7D52A12A352007EDB01 /* RunewarsSoloAppTests */,
+				D03CC7DF2A12A352007EDB01 /* RunewarsSoloAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03CC7C32A12A34F007EDB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01EA40C2A892CA0006F54E6 /* Launch Screen.storyboard in Resources */,
+				D03CC7D12A12A351007EDB01 /* Preview Assets.xcassets in Resources */,
+				D03CC7CD2A12A351007EDB01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CC7D42A12A352007EDB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CC7DE2A12A352007EDB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03CC7C12A12A34F007EDB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CC7CB2A12A34F007EDB01 /* ContentView.swift in Sources */,
+				D03CC7C92A12A34F007EDB01 /* RunewarsSoloAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CC7D22A12A352007EDB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CC7DB2A12A352007EDB01 /* RunewarsSoloAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CC7DC2A12A352007EDB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CC7E72A12A352007EDB01 /* RunewarsSoloAppUITestsLaunchTests.swift in Sources */,
+				D03CC7E52A12A352007EDB01 /* RunewarsSoloAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D03CC7D82A12A352007EDB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D03CC7C42A12A34F007EDB01 /* RunewarsSoloApp */;
+			targetProxy = D03CC7D72A12A352007EDB01 /* PBXContainerItemProxy */;
+		};
+		D03CC7E22A12A352007EDB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D03CC7C42A12A34F007EDB01 /* RunewarsSoloApp */;
+			targetProxy = D03CC7E12A12A352007EDB01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D03CC7E82A12A352007EDB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D03CC7E92A12A352007EDB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D03CC7EB2A12A352007EDB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RunewarsSoloApp/RunewarsSoloApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RunewarsSoloApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PS.RunewarsSoloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D03CC7EC2A12A352007EDB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RunewarsSoloApp/RunewarsSoloApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RunewarsSoloApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PS.RunewarsSoloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D03CC7EE2A12A352007EDB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PS.RunewarsSoloAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunewarsSoloApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RunewarsSoloApp";
+			};
+			name = Debug;
+		};
+		D03CC7EF2A12A352007EDB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PS.RunewarsSoloAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunewarsSoloApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RunewarsSoloApp";
+			};
+			name = Release;
+		};
+		D03CC7F12A12A352007EDB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PS.RunewarsSoloAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RunewarsSoloApp;
+			};
+			name = Debug;
+		};
+		D03CC7F22A12A352007EDB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PS.RunewarsSoloAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RunewarsSoloApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03CC7C02A12A34F007EDB01 /* Build configuration list for PBXProject "RunewarsSoloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CC7E82A12A352007EDB01 /* Debug */,
+				D03CC7E92A12A352007EDB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03CC7EA2A12A352007EDB01 /* Build configuration list for PBXNativeTarget "RunewarsSoloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CC7EB2A12A352007EDB01 /* Debug */,
+				D03CC7EC2A12A352007EDB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03CC7ED2A12A352007EDB01 /* Build configuration list for PBXNativeTarget "RunewarsSoloAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CC7EE2A12A352007EDB01 /* Debug */,
+				D03CC7EF2A12A352007EDB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03CC7F02A12A352007EDB01 /* Build configuration list for PBXNativeTarget "RunewarsSoloAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CC7F12A12A352007EDB01 /* Debug */,
+				D03CC7F22A12A352007EDB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D03CC7BD2A12A34F007EDB01 /* Project object */;
+}
